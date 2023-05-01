@@ -88,3 +88,22 @@ Caused by: org.apache.lucene.search.BooleanQuery$TooManyClauses: maxClauseCount 
 	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
 	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:836)
 	... 10 more
+[2023-05-01 11:54:06,881][INFO ][node                     ] [Aries] version[2.2.0], pid[525], build[8ff36d1/2016-01-27T13:32:39Z]
+[2023-05-01 11:54:06,882][INFO ][node                     ] [Aries] initializing ...
+[2023-05-01 11:54:07,296][INFO ][plugins                  ] [Aries] modules [lang-expression, lang-groovy], plugins [], sites []
+[2023-05-01 11:54:07,313][INFO ][env                      ] [Aries] using [1] data paths, mounts [[/ (/dev/sdc)]], net usable_space [953.7gb], net total_space [1006.8gb], spins? [possibly], types [ext4]
+[2023-05-01 11:54:07,313][INFO ][env                      ] [Aries] heap size [989.8mb], compressed ordinary object pointers [true]
+[2023-05-01 11:54:08,796][INFO ][node                     ] [Aries] initialized
+[2023-05-01 11:54:08,796][INFO ][node                     ] [Aries] starting ...
+[2023-05-01 11:54:08,940][INFO ][transport                ] [Aries] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2023-05-01 11:54:08,946][INFO ][discovery                ] [Aries] stackoverflow/S1tbtS-tTnm-0HBnADXPfw
+[2023-05-01 11:54:11,975][INFO ][cluster.service          ] [Aries] new_master {Aries}{S1tbtS-tTnm-0HBnADXPfw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2023-05-01 11:54:11,998][INFO ][http                     ] [Aries] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2023-05-01 11:54:11,998][INFO ][node                     ] [Aries] started
+[2023-05-01 11:54:12,070][INFO ][gateway                  ] [Aries] recovered [1] indices into cluster_state
+[2023-05-01 11:54:12,374][INFO ][cluster.routing.allocation] [Aries] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]] ...]).
+[2023-05-01 12:16:57,033][INFO ][cluster.metadata         ] [Aries] [test] creating index, cause [api], templates [], shards [1]/[1], mappings [siamese]
+[2023-05-01 12:16:57,099][INFO ][cluster.routing.allocation] [Aries] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]] ...]).
+[2023-05-01 12:17:16,582][INFO ][cluster.metadata         ] [Aries] [test] creating index, cause [api], templates [], shards [1]/[1], mappings [siamese]
+[2023-05-01 12:17:16,617][INFO ][cluster.routing.allocation] [Aries] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]] ...]).
+[2023-05-01 12:17:17,255][INFO ][cluster.metadata         ] [Aries] [test] update_mapping [siamese]
