@@ -1,0 +1,4 @@
+,file1,start1,end1,method1,file2,start2,end2
+0,/AndroRAT/Android_Code/app/src/main/java/com/example/reverseshell2/Payloads/CameraPreview.java,90,96,releaseCamera,/stackoverflow_formatted/3385424_0.java,41,50
+1,/AndroRAT/Android_Code/app/src/main/java/com/example/reverseshell2/Payloads/CameraPreview.java,90,96,releaseCamera,/stackoverflow_formatted/11276875_0.java,1,119
+2,/AndroRAT/Android_Code/app/src/main/java/com/example/reverseshell2/Payloads/CameraPreview.java,90,96,releaseCamera,/stackoverflow_formatted/22936484_1.java,1,85
